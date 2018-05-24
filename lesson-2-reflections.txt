@@ -21,6 +21,10 @@ way to really visualize what the commit is going to look like.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+If I want to try something that I'm not sure its going to work. I can also use
+a branch when I want to create different versions of the program that I want
+to work simultaneously. 
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
