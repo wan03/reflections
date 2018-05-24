@@ -27,8 +27,19 @@ to work simultaneously.
 
 How do the diagrams help you visualize the branch structure?
 
+It allows me to see them in a picture format that  helps to understand
+where everything is at a given moment. Makes it much easier than just
+trying to figure it out using text.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+It combines the changes that exist in two separate branches. It is represented like that
+because both branches are the parents of this current branch.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+It takes a lot let time as you are only checking when there is an exception. The con 
+would be that there could be a merge that does not cause a conflict yet introduces
+a significant bug
