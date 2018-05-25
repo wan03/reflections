@@ -24,14 +24,24 @@ and code in tandem.
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+ It allows you to know when there are commits on both sides that need to be
+ merged. It helps prevent it from overwritting a change without you realizing it
+ due to a conflict.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+ I would have to use another form of version control. For coding it would be considerably
+ harder but for other types of collaboration Google and Dropbox offer pretty intuitive
+ products. You might be able to do code by updating .txt files but being able to see conflicts
+ and have a more purposely made diff command is extremely helpful.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+I think the biggest time is when our master is already in production and we wouldn't want to
+mess with it. Working on the master could create a bug and crash the whole system so it is
+better to be able to work on a branch and do testing before making it into production. Another
+advantage is that it allow us to create logical separation between proccesses if we are creating 
+a new feature we might not want to get it mixed up with another feature or a bug fix. We would 
+would work directly on the master when we are the sole contributor and it is the early stages.
